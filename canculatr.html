@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canculator</title>
+    <link rel="stylesheet" href="canculatr.css">
+</head>
+<body>
+    <h1>Best Calculator</h1>
+    <form name="canculatr">
+        <div class="box">
+                <input type="text" name="screen" placeholder="0" id="screen" disabled>
+
+        <table>
+
+        <tr>
+            <td><input type="button" name="seven" value="7" onclick="canculatr.screen.value +='7'" id="btn"></td>
+            <td><input type="button" name="eight" value="8" onclick="canculatr.screen.value +='8'" id="btn"></td>
+            <td><input type="button" name="nine" value="9" onclick="canculatr.screen.value +='9'" id="btn"></td>
+            <td><input type="button" name="tines" value="x" class="operator" onclick="canculatr.screen.value +='*'"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" name="four" value="4" onclick="canculatr.screen.value +='4'" id="btn"></td>
+            <td><input type="button" name="five" value="5" onclick="canculatr.screen.value +='5'" id="btn"></td>
+            <td><input type="button" name="six" value="6" onclick="canculatr.screen.value +='6'" id="btn"></td>
+            <td><input type="button" name="plus" value="+" class="operator" onclick="canculatr.screen.value +='+'"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" name="one" value="1" onclick="canculatr.screen.value +='1'" id="btn"></td>
+            <td><input type="button" name="tou" value="2" onclick="canculatr.screen.value +='2'" id="btn"></td>
+            <td><input type="button" name="three" value="3" onclick="canculatr.screen.value +='3'" id="btn"></td>
+            <td><input type="button" name="minus" value="-" class="operator" onclick="canculatr.screen.value +='-'"></td>
+        </tr>
+
+        <tr>
+            <td><input type="button" name="clear" value="Ac" onclick="canculatr.screen.value = ''" id="btn"></td>
+            <td><input type="button" name="zero" value="0" onclick="canculatr.screen.value +='0'" id="btn"></td>
+            <td><input type="button" name="doit" value="=" onclick="canculatr.screen.value = eval(canculatr.screen.value)" id="btn"></td>
+            <td><input type="button" name="div" value="&#247" class="operator" onclick="canculatr.screen.value +='/'"></td>
+        </tr>
+
+        </table>
+        </div>
+    </form>
+</body>
+</html>

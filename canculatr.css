@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+    }
+h1{
+ text-align: center;
+ color: white;
+ text-shadow: 0px 0px 10px red,0px 0px 10px red;
+ }
+form{
+ display: flex;
+ justify-content: center;
+}
+#screen{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    font-size: 28px;
+    color: black;
+    border: 3px dashed red;
+}
+table{
+    padding-left: 15px;
+}
+#btn{
+    width: 55px;
+    height: 50px;
+    color: white;
+    background-image: linear-gradient(125deg,black,red);
+}
+#btn:active{
+    background-image: linear-gradient( 1deg, black,red);
+    border: 1px solid white;
+}
+.operator{
+    max-width: 60px;
+    min-width: 30px;
+    width: 60px;
+    height: 55px;
+    color: white;
+    background-image:  radial-gradient( black,red);
+    border: none;
+}
+.operator:active{
+    border: 2px solid #ffee00;
+}
